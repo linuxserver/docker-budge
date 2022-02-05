@@ -1,0 +1,29 @@
+---
+
+# jenkins variables
+project_name: docker-BudgE
+external_type: github_stable
+release_type: stable
+release_tag: latest
+ls_branch: master
+repo_vars:
+  - EXT_GIT_BRANCH = 'master'
+  - EXT_USER = 'linuxserver'
+  - EXT_REPO = 'BudgE'
+  - BUILD_VERSION_ARG = 'BUDGE_RELEASE'
+  - LS_USER = 'linuxserver'
+  - LS_REPO = 'docker-BudgE'
+  - CONTAINER_NAME='BudgE'
+  - DOCKERHUB_IMAGE = 'linuxserver/BudgE'
+  - DEV_DOCKERHUB_IMAGE = 'lsiodev/BudgE'
+  - PR_DOCKERHUB_IMAGE = 'lspipepr/BudgE'
+  - DIST_IMAGE = 'alpine'
+  - MULTIARCH='true'
+  - CI='true'
+  - CI_WEB='false'
+  - CI_PORT='80'
+  - CI_SSL=''
+  - CI_DELAY='120'
+  - CI_DOCKERENV='TZ=America/New_York'
+  - CI_AUTH=''
+  - CI_WEBPATH=''
