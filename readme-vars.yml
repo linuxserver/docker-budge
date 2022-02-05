@@ -4,7 +4,7 @@
 project_name: BudgE
 project_url: "https://github.com/linuxserver/BudgE"
 project_logo: ""
-project_blurb: "[{{ project_name }}]({{ project_url }}) is an open source "budgeting with envelopes" personal finance app."
+project_blurb: "[{{ project_name }}]({{ project_url }}) is an open source 'budgeting with envelopes' personal finance app."
 project_lsio_github_repo_url: "https://github.com/linuxserver/docker-{{ project_name }}"
 
 # supported architectures

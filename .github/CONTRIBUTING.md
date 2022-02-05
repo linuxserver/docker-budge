@@ -1,10 +1,10 @@
-# Contributing to lychee
+# Contributing to BudgE
 
 ## Gotchas
 
 * While contributing make sure to make all your changes before creating a Pull Request, as our pipeline builds each commit after the PR is open.
 * Read, and fill the Pull Request template
-  * If this is a fix for a typo in code or documentation in the README please file an issue
+  * If this is a fix for a typo (in code, documentation, or the README) please file an issue and let us sort it out. We do not need a PR
   * If the PR is addressing an existing issue include, closes #\<issue number>, in the body of the PR commit message
 * If you want to discuss changes, you can also bring it up in [#dev-talk](https://discordapp.com/channels/354974912613449730/757585807061155840) in our [Discord server](https://discord.gg/YWrKVTn)
 
@@ -24,10 +24,10 @@
 ## Readme
 
 If you would like to change our readme, please __**do not**__ directly edit the readme, as it is auto-generated on each commit.
-Instead edit the [readme-vars.yml](https://github.com/linuxserver/docker-lychee/edit/master/readme-vars.yml).
+Instead edit the [readme-vars.yml](https://github.com/linuxserver/docker-BudgE/edit/master/readme-vars.yml).
 
 These variables are used in a template for our [Jenkins Builder](https://github.com/linuxserver/docker-jenkins-builder) as part of an ansible play.
-Most of these variables are also carried over to [docs.linuxserver.io](https://docs.linuxserver.io/images/docker-lychee)
+Most of these variables are also carried over to [docs.linuxserver.io](https://docs.linuxserver.io/images/docker-BudgE)
 
 ### Fixing typos or clarify the text in the readme
 
@@ -96,25 +96,26 @@ If you are proposing additional packages to be added, ensure that you added the 
 
 ### Testing your changes
 
-```
-git clone https://github.com/linuxserver/docker-lychee.git
-cd docker-lychee
+```bash
+git clone https://github.com/linuxserver/docker-BudgE.git
+cd docker-BudgE
 docker build \
   --no-cache \
   --pull \
-  -t linuxserver/lychee:latest .
+  -t linuxserver/BudgE:latest .
 ```
 
 The ARM variants can be built on x86_64 hardware using `multiarch/qemu-user-static`
-```
+
+```bash
 docker run --rm --privileged multiarch/qemu-user-static:register --reset
 ```
 
 Once registered you can define the dockerfile to use with `-f Dockerfile.aarch64`.
 
-## Update the chagelog
+## Update the changelog
 
-If you are modifying the Dockerfiles or any of the startup scripts in [root](https://github.com/linuxserver/docker-lychee/tree/master/root), add an entry to the changelog
+If you are modifying the Dockerfiles or any of the startup scripts in [root](https://github.com/linuxserver/docker-BudgE/tree/master/root), add an entry to the changelog
 
 ```yml
 changelogs:
