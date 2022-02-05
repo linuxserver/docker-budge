@@ -11,7 +11,9 @@ RUN \
 	echo "**** install build packages ****" && \
 	apk add --no-cache --virtual=build-dependencies \
 		curl \
+    gcc \
 		make \
+    musl-dev \
 		python3 && \
 	echo "**** install runtime packages ****" && \
 	apk add --no-cache \
