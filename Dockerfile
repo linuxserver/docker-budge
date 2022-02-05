@@ -11,6 +11,7 @@ RUN \
 	echo "**** install build packages ****" && \
 	apk add --no-cache --virtual=build-dependencies \
 		curl \
+		g++ \
     gcc \
 		make \
     musl-dev \
