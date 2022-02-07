@@ -1,4 +1,4 @@
-FROM ghcr.io/linuxserver/baseimage-alpine-nginx:3.14
+FROM ghcr.io/linuxserver/baseimage-alpine-nginx:arm32v7-3.14
 
 # set version label
 ARG BUILD_DATE
@@ -13,7 +13,7 @@ RUN \
 	echo "**** install build packages ****" && \
 	apk add --no-cache --virtual=build-dependencies \
 		curl \
-		g++ \
+    g++ \
     gcc \
 		make \
     musl-dev \

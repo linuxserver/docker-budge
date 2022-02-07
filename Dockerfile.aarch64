@@ -12,8 +12,8 @@ ENV BUDGE_DATABASE=/config/budge.db
 RUN \
 	echo "**** install build packages ****" && \
 	apk add --no-cache --virtual=build-dependencies \
-		curl \
-		g++ \
+    curl \
+    g++ \
     gcc \
 		make \
     musl-dev \

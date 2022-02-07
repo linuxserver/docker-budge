@@ -5,10 +5,10 @@ cd /app/budge/backend
 touch /app/budge/backend/budge.sqlite
 
 # copy config
-[[ ! -e /config/budge.db ]] && \
-	mv /app/budge/backend/budge.sqlite
+[[ ! -e /config/config.js ]] && \
+	mv /app/budge/backend/build/ormconfig.js /config/config.js
 
-ln -sf /config/budge.db /app/budge/backend/budge.sqlite
+ln -sf /config/config.js /app/budge/backend/build/ormconfig.js
 
 # permissions
 chown -R abc:abc \
