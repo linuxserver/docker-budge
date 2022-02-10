@@ -48,6 +48,9 @@ RUN \
 	npm i && \
 	npm run build && \
 	npm prune --production && \
+	echo "**** overlay-fs bug workaround ****" && \
+  	mv /app/budge/frontend/node_modules /app/budge/frontend/node_modules-tmp && \
+	mv /app/budge/backend/node_modules /app/budge/backend/node_modules-tmp && \
 	echo "**** cleanup ****" && \
 	apk del --purge \
 		build-dependencies && \
