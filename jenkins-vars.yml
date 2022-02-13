@@ -10,7 +10,7 @@ repo_vars:
   - EXT_GIT_BRANCH = 'main'
   - EXT_USER = 'linuxserver'
   - EXT_REPO = 'budge'
-  - BUILD_VERSION_ARG = 'budge_RELEASE'
+  - BUILD_VERSION_ARG = 'BUDGE_RELEASE'
   - LS_USER = 'linuxserver'
   - LS_REPO = 'docker-budge'
   - CONTAINER_NAME='budge'

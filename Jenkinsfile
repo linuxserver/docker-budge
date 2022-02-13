@@ -20,7 +20,7 @@ pipeline {
     EXT_GIT_BRANCH = 'main'
     EXT_USER = 'linuxserver'
     EXT_REPO = 'budge'
-    BUILD_VERSION_ARG = 'budge_RELEASE'
+    BUILD_VERSION_ARG = 'BUDGE_RELEASE'
     LS_USER = 'linuxserver'
     LS_REPO = 'docker-budge'
     CONTAINER_NAME='budge'
@@ -419,18 +419,18 @@ pipeline {
       steps{
         sh '''#! /bin/bash
               set -e
-              PACKAGE_UUID=$(curl -X GET -H "Authorization: Bearer ${SCARF_TOKEN}" https://scarf.sh/api/v1/organizations/linuxserver-ci/packages | jq -r '.[] | select(.name=="linuxserver/BudgE") | .uuid')
+              PACKAGE_UUID=$(curl -X GET -H "Authorization: Bearer ${SCARF_TOKEN}" https://scarf.sh/api/v1/organizations/linuxserver-ci/packages | jq -r '.[] | select(.name=="linuxserver/budge") | .uuid')
               if [ -z "${PACKAGE_UUID}" ]; then
                 echo "Adding package to Scarf.sh"
                 curl -sX POST https://scarf.sh/api/v1/organizations/linuxserver-ci/packages \
                   -H "Authorization: Bearer ${SCARF_TOKEN}" \
                   -H "Content-Type: application/json" \
-                  -d '{"name":"linuxserver/BudgE",\
+                  -d '{"name":"linuxserver/budge",\
                        "shortDescription":"example description",\
                        "libraryType":"docker",\
-                       "website":"https://github.com/linuxserver/docker-BudgE",\
-                       "backendUrl":"https://ghcr.io/linuxserver/BudgE",\
-                       "publicUrl":"https://lscr.io/linuxserver/BudgE"}' || :
+                       "website":"https://github.com/linuxserver/docker-budge",\
+                       "backendUrl":"https://ghcr.io/linuxserver/budge",\
+                       "publicUrl":"https://lscr.io/linuxserver/budge"}' || :
               else
                 echo "Package already exists on Scarf.sh"
               fi
@@ -453,16 +453,16 @@ pipeline {
         sh "docker build \
           --label \"org.opencontainers.image.created=${GITHUB_DATE}\" \
           --label \"org.opencontainers.image.authors=linuxserver.io\" \
-          --label \"org.opencontainers.image.url=https://github.com/linuxserver/docker-BudgE/packages\" \
-          --label \"org.opencontainers.image.documentation=https://docs.linuxserver.io/images/docker-BudgE\" \
-          --label \"org.opencontainers.image.source=https://github.com/linuxserver/docker-BudgE\" \
+          --label \"org.opencontainers.image.url=https://github.com/linuxserver/docker-budge/packages\" \
+          --label \"org.opencontainers.image.documentation=https://docs.linuxserver.io/images/docker-budge\" \
+          --label \"org.opencontainers.image.source=https://github.com/linuxserver/docker-budge\" \
           --label \"org.opencontainers.image.version=${EXT_RELEASE_CLEAN}-ls${LS_TAG_NUMBER}\" \
           --label \"org.opencontainers.image.revision=${COMMIT_SHA}\" \
           --label \"org.opencontainers.image.vendor=linuxserver.io\" \
           --label \"org.opencontainers.image.licenses=GPL-3.0-only\" \
           --label \"org.opencontainers.image.ref.name=${COMMIT_SHA}\" \
           --label \"org.opencontainers.image.title=Budge\" \
-          --label \"org.opencontainers.image.description=[BudgE](https://github.com/linuxserver/BudgE) is an open source 'budgeting with envelopes' personal finance app.\" \
+          --label \"org.opencontainers.image.description=[budge](https://github.com/linuxserver/budge) is an open source 'budgeting with envelopes' personal finance app.\" \
           --no-cache --pull -t ${IMAGE}:${META_TAG} \
           --build-arg ${BUILD_VERSION_ARG}=${EXT_RELEASE} --build-arg VERSION=\"${VERSION_TAG}\" --build-arg BUILD_DATE=${GITHUB_DATE} ."
       }
@@ -483,16 +483,16 @@ pipeline {
             sh "docker build \
               --label \"org.opencontainers.image.created=${GITHUB_DATE}\" \
               --label \"org.opencontainers.image.authors=linuxserver.io\" \
-              --label \"org.opencontainers.image.url=https://github.com/linuxserver/docker-BudgE/packages\" \
-              --label \"org.opencontainers.image.documentation=https://docs.linuxserver.io/images/docker-BudgE\" \
-              --label \"org.opencontainers.image.source=https://github.com/linuxserver/docker-BudgE\" \
+              --label \"org.opencontainers.image.url=https://github.com/linuxserver/docker-budge/packages\" \
+              --label \"org.opencontainers.image.documentation=https://docs.linuxserver.io/images/docker-budge\" \
+              --label \"org.opencontainers.image.source=https://github.com/linuxserver/docker-budge\" \
               --label \"org.opencontainers.image.version=${EXT_RELEASE_CLEAN}-ls${LS_TAG_NUMBER}\" \
               --label \"org.opencontainers.image.revision=${COMMIT_SHA}\" \
               --label \"org.opencontainers.image.vendor=linuxserver.io\" \
               --label \"org.opencontainers.image.licenses=GPL-3.0-only\" \
               --label \"org.opencontainers.image.ref.name=${COMMIT_SHA}\" \
               --label \"org.opencontainers.image.title=Budge\" \
-              --label \"org.opencontainers.image.description=[BudgE](https://github.com/linuxserver/BudgE) is an open source 'budgeting with envelopes' personal finance app.\" \
+              --label \"org.opencontainers.image.description=[budge](https://github.com/linuxserver/budge) is an open source 'budgeting with envelopes' personal finance app.\" \
               --no-cache --pull -t ${IMAGE}:amd64-${META_TAG} \
               --build-arg ${BUILD_VERSION_ARG}=${EXT_RELEASE} --build-arg VERSION=\"${VERSION_TAG}\" --build-arg BUILD_DATE=${GITHUB_DATE} ."
           }
@@ -510,16 +510,16 @@ pipeline {
             sh "docker build \
               --label \"org.opencontainers.image.created=${GITHUB_DATE}\" \
               --label \"org.opencontainers.image.authors=linuxserver.io\" \
-              --label \"org.opencontainers.image.url=https://github.com/linuxserver/docker-BudgE/packages\" \
-              --label \"org.opencontainers.image.documentation=https://docs.linuxserver.io/images/docker-BudgE\" \
-              --label \"org.opencontainers.image.source=https://github.com/linuxserver/docker-BudgE\" \
+              --label \"org.opencontainers.image.url=https://github.com/linuxserver/docker-budge/packages\" \
+              --label \"org.opencontainers.image.documentation=https://docs.linuxserver.io/images/docker-budge\" \
+              --label \"org.opencontainers.image.source=https://github.com/linuxserver/docker-budge\" \
               --label \"org.opencontainers.image.version=${EXT_RELEASE_CLEAN}-ls${LS_TAG_NUMBER}\" \
               --label \"org.opencontainers.image.revision=${COMMIT_SHA}\" \
               --label \"org.opencontainers.image.vendor=linuxserver.io\" \
               --label \"org.opencontainers.image.licenses=GPL-3.0-only\" \
               --label \"org.opencontainers.image.ref.name=${COMMIT_SHA}\" \
               --label \"org.opencontainers.image.title=Budge\" \
-              --label \"org.opencontainers.image.description=[BudgE](https://github.com/linuxserver/BudgE) is an open source 'budgeting with envelopes' personal finance app.\" \
+              --label \"org.opencontainers.image.description=[budge](https://github.com/linuxserver/budge) is an open source 'budgeting with envelopes' personal finance app.\" \
               --no-cache --pull -f Dockerfile.armhf -t ${IMAGE}:arm32v7-${META_TAG} \
               --build-arg ${BUILD_VERSION_ARG}=${EXT_RELEASE} --build-arg VERSION=\"${VERSION_TAG}\" --build-arg BUILD_DATE=${GITHUB_DATE} ."
             sh "docker tag ${IMAGE}:arm32v7-${META_TAG} ghcr.io/linuxserver/lsiodev-buildcache:arm32v7-${COMMIT_SHA}-${BUILD_NUMBER}"
@@ -544,16 +544,16 @@ pipeline {
             sh "docker build \
               --label \"org.opencontainers.image.created=${GITHUB_DATE}\" \
               --label \"org.opencontainers.image.authors=linuxserver.io\" \
-              --label \"org.opencontainers.image.url=https://github.com/linuxserver/docker-BudgE/packages\" \
-              --label \"org.opencontainers.image.documentation=https://docs.linuxserver.io/images/docker-BudgE\" \
-              --label \"org.opencontainers.image.source=https://github.com/linuxserver/docker-BudgE\" \
+              --label \"org.opencontainers.image.url=https://github.com/linuxserver/docker-budge/packages\" \
+              --label \"org.opencontainers.image.documentation=https://docs.linuxserver.io/images/docker-budge\" \
+              --label \"org.opencontainers.image.source=https://github.com/linuxserver/docker-budge\" \
               --label \"org.opencontainers.image.version=${EXT_RELEASE_CLEAN}-ls${LS_TAG_NUMBER}\" \
               --label \"org.opencontainers.image.revision=${COMMIT_SHA}\" \
               --label \"org.opencontainers.image.vendor=linuxserver.io\" \
               --label \"org.opencontainers.image.licenses=GPL-3.0-only\" \
               --label \"org.opencontainers.image.ref.name=${COMMIT_SHA}\" \
               --label \"org.opencontainers.image.title=Budge\" \
-              --label \"org.opencontainers.image.description=[BudgE](https://github.com/linuxserver/BudgE) is an open source 'budgeting with envelopes' personal finance app.\" \
+              --label \"org.opencontainers.image.description=[budge](https://github.com/linuxserver/budge) is an open source 'budgeting with envelopes' personal finance app.\" \
               --no-cache --pull -f Dockerfile.aarch64 -t ${IMAGE}:arm64v8-${META_TAG} \
               --build-arg ${BUILD_VERSION_ARG}=${EXT_RELEASE} --build-arg VERSION=\"${VERSION_TAG}\" --build-arg BUILD_DATE=${GITHUB_DATE} ."
             sh "docker tag ${IMAGE}:arm64v8-${META_TAG} ghcr.io/linuxserver/lsiodev-buildcache:arm64v8-${COMMIT_SHA}-${BUILD_NUMBER}"
