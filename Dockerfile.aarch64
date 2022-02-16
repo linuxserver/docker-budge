@@ -26,8 +26,8 @@ RUN \
   echo "**** install budge ****" && \
   mkdir -p /app/budge && \
   if [ -z ${BUDGE_RELEASE+x} ]; then \
-    BUDGE_RELEASE=$(curl -sX GET "https://api.github.com/repos/linuxserver/BudgE/commits/main" \
-    | awk '/sha/{print $4;exit}' FS='[""]'); \
+    BUDGE_RELEASE=$(curl -sX GET "https://api.github.com/repos/linuxserver/BudgE/releases/latest" \
+    | jq -r '.[0] | .tag_name'); \
   fi && \
   curl -o \
     /tmp/budge.tar.gz -L \
