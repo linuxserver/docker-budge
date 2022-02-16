@@ -25,7 +25,7 @@ RUN \
     sqlite && \
   echo "**** install budge ****" && \
   mkdir -p /app/budge && \
-  if [ -z ${NOTEMARKS_RELEASE+x} ]; then \
+  if [ -z ${BUDGE_RELEASE+x} ]; then \
     BUDGE_RELEASE=$(curl -sX GET "https://api.github.com/repos/linuxserver/BudgE/commits/main" \
     | awk '/sha/{print $4;exit}' FS='[""]'); \
   fi && \
