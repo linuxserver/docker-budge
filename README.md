@@ -224,5 +224,5 @@ Once registered you can define the dockerfile to use with `-f Dockerfile.aarch64
 
 ## Versions
 
-* **15.04.22:** - Added NPM command to run db migrations.
+* **04.15.22:** - Added NPM command to run db migrations.
 * **02.05.22:** - Initial Release.
