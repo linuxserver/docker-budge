@@ -7,6 +7,7 @@ if [ -d /app/budge/backend/node_modules-tmp ]; then
 fi
 
 cd /app/budge/backend
+npm run migrate
 
 touch /app/budge/backend/budge.sqlite
 

@@ -33,4 +33,5 @@ app_setup_block: |
   Access the web gui at http://SERVERIP:PORT
 # changelog
 changelogs:
+  - { date: "04.15.22:", desc: "Added NPM command to run db migrations." }
   - { date: "02.05.22:", desc: "Initial Release." }
