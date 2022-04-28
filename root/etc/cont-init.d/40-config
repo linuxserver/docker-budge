@@ -6,8 +6,8 @@ if [ -d /app/budge/backend/node_modules-tmp ]; then
 	mv /app/budge/frontend/node_modules-tmp /app/budge/frontend/node_modules
 fi
 
-cd /app/budge/backend
-npm run migrate
+cd /app/budge/backend/build
+npx typeorm migration:run
 
 touch /app/budge/backend/budge.sqlite
 
