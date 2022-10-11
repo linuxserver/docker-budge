@@ -41,7 +41,7 @@ ncurses-libs-6.2_p20210612-r1
 ncurses-terminfo-base-6.2_p20210612-r1
 nghttp2-libs-1.43.0-r0
 nginx-1.20.2-r1
-nodejs-14.20.0-r0
+nodejs-14.20.1-r0
 npm-7.17.0-r0
 oniguruma-6.9.7.1-r0
 openssl-1.1.1q-r0
