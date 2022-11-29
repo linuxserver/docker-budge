@@ -2,8 +2,6 @@
 
 shopt -s globstar
 
-export NODE_ENV="production"
-
 exec \
     s6-notifyoncheck -d -n 300 -w 1000 -c "nc -z localhost 5000" \
         cd /app/www/public/backend/build s6-setuidgid abc /usr/bin/npm run start --logs-dir /config/log/npm

@@ -1,4 +1,4 @@
-FROM docker.io/local/baseimage-alpine-nginx:3.17
+FROM ghcr.io/linuxserver/baseimage-alpine-nginx:3.17
 
 # set version label
 ARG BUILD_DATE
@@ -37,17 +37,17 @@ RUN \
     /app/www/public/ --strip-components=1 && \
   echo "**** install backend ****" && \
   cd /app/www/public/backend && \
-  npm i && \
+  npm install && \
   npm run build && \
-  npm prune --production && \
+  npm prune --omit=dev && \
   echo "**** install ynab importer ****" && \
   cd /app/www/public/ynab && \
-  npm i && \
+  npm install && \
   echo "**** install frontend ****" && \
   cd /app/www/public/frontend && \
-  npm i && \
+  npm install && \
   npm run build && \
-  npm prune --production && \
+  npm prune --omit=dev && \
   echo "**** overlay-fs bug workaround ****" && \
     mv /app/www/public/frontend/node_modules /app/www/public/frontend/node_modules-tmp && \
   mv /app/www/public/backend/node_modules /app/www/public/backend/node_modules-tmp && \
