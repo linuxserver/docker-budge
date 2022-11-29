@@ -1,4 +1,4 @@
-FROM ghcr.io/linuxserver/baseimage-alpine-nginx:3.17
+FROM docker.io/local/baseimage-alpine-nginx:3.17
 
 # set version label
 ARG BUILD_DATE
@@ -52,6 +52,7 @@ RUN \
     mv /app/www/public/frontend/node_modules /app/www/public/frontend/node_modules-tmp && \
   mv /app/www/public/backend/node_modules /app/www/public/backend/node_modules-tmp && \
   echo "**** cleanup ****" && \
+  npm cache clean --force && \
   apk del --purge \
     build-dependencies && \
   rm -rf \
