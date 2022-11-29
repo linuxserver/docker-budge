@@ -1,4 +1,4 @@
-FROM ghcr.io/linuxserver/baseimage-alpine-nginx:3.14
+FROM docker.io/local/baseimage-alpine-nginx:3.17
 
 # set version label
 ARG BUILD_DATE
@@ -7,12 +7,12 @@ ARG BUDGE_RELEASE
 LABEL build_version="Linuxserver.io version:- ${VERSION} Build-date:- ${BUILD_DATE}"
 LABEL maintainer="alex-phillips"
 
-ENV BUDGE_DATABASE=/config/budge.db
+ENV BUDGE_DATABASE=/config/budge.db \
+    S6_STAGE2_HOOK="/init-hook"
 
 RUN \
   echo "**** install build packages ****" && \
   apk add --no-cache --virtual=build-dependencies \
-    curl \
     g++ \
     gcc \
     make \
@@ -24,33 +24,33 @@ RUN \
     npm \
     sqlite && \
   echo "**** install budge ****" && \
-  mkdir -p /app/budge && \
+  mkdir -p /app/www/public && \
   if [ -z ${BUDGE_RELEASE+x} ]; then \
-    BUDGE_RELEASE=$(curl -sX GET "https://api.github.com/repos/linuxserver/BudgE/releases/latest" \
-    | jq -r '.[0] | .tag_name'); \
+    BUDGE_RELEASE=$(curl -sX GET "https://api.github.com/repos/linuxserver/budge/releases/latest" \
+    | jq -r '.tag_name'); \
   fi && \
   curl -o \
     /tmp/budge.tar.gz -L \
-    "https://github.com/linuxserver/BudgE/archive/${BUDGE_RELEASE}.tar.gz" && \
+    "https://github.com/linuxserver/budge/archive/${BUDGE_RELEASE}.tar.gz" && \
   tar xf \
   /tmp/budge.tar.gz -C \
-    /app/budge/ --strip-components=1 && \
+    /app/www/public/ --strip-components=1 && \
   echo "**** install backend ****" && \
-  cd /app/budge/backend && \
+  cd /app/www/public/backend && \
   npm i && \
   npm run build && \
   npm prune --production && \
   echo "**** install ynab importer ****" && \
-  cd /app/budge/ynab && \
+  cd /app/www/public/ynab && \
   npm i && \
   echo "**** install frontend ****" && \
-  cd /app/budge/frontend && \
+  cd /app/www/public/frontend && \
   npm i && \
   npm run build && \
   npm prune --production && \
   echo "**** overlay-fs bug workaround ****" && \
-    mv /app/budge/frontend/node_modules /app/budge/frontend/node_modules-tmp && \
-  mv /app/budge/backend/node_modules /app/budge/backend/node_modules-tmp && \
+    mv /app/www/public/frontend/node_modules /app/www/public/frontend/node_modules-tmp && \
+  mv /app/www/public/backend/node_modules /app/www/public/backend/node_modules-tmp && \
   echo "**** cleanup ****" && \
   apk del --purge \
     build-dependencies && \

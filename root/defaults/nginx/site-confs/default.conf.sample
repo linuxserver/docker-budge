@@ -1,15 +1,16 @@
+## Version 2022/11/29 - Changelog: https://github.com/linuxserver/docker-budge/commits/main/root/defaults/default
+
 server {
     listen 80 default_server;
+    listen [::]:80 default_server;
 
-    listen 443 ssl;
+    listen 443 ssl http2 default_server;
+    listen [::]:443 ssl http2 default_server;
 
-    root /app/budge/frontend/build;
+    root /app/www/public/frontend/build;
     index index.php index.html index.htm;
 
     server_name _;
-
-    ssl_certificate /config/keys/cert.crt;
-    ssl_certificate_key /config/keys/cert.key;
 
     client_max_body_size 0;
 
