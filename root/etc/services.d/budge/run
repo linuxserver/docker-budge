@@ -1,8 +1,0 @@
-#!/usr/bin/with-contenv bash
-
-cd /app/budge/backend/build
-
-shopt -s globstar
-
-exec \
-    s6-setuidgid abc /usr/bin/npm run start
