@@ -1,4 +1,5 @@
 #!/usr/bin/with-contenv bash
+# shellcheck shell=bash
 
 rm -rf /etc/s6-overlay/s6-rc.d/svc-php-fpm
 rm -rf /etc/s6-overlay/s6-rc.d/user/contents.d/svc-php-fpm
