@@ -1,3 +1,5 @@
+# syntax=docker/dockerfile:1
+
 FROM ghcr.io/linuxserver/baseimage-alpine-nginx:3.17
 
 # set version label
@@ -13,9 +15,7 @@ ENV BUDGE_DATABASE=/config/budge.db \
 RUN \
   echo "**** install build packages ****" && \
   apk add --no-cache --virtual=build-dependencies \
-    g++ \
-    gcc \
-    make \
+    build-base \
     musl-dev \
     python3 && \
   echo "**** install runtime packages ****" && \
@@ -61,3 +61,7 @@ RUN \
 
 # add local files
 COPY root/ /
+
+# ports and volumes
+EXPOSE 80 443
+VOLUME /config
