@@ -371,7 +371,7 @@ ajv-keywords                                                                   5
 alpine-baselayout                                                              3.4.0-r0               apk     
 alpine-baselayout-data                                                         3.4.0-r0               apk     
 alpine-keys                                                                    2.4-r1                 apk     
-alpine-release                                                                 3.17.2-r0              apk     
+alpine-release                                                                 3.17.3-r0              apk     
 ansi-escapes                                                                   4.3.2                  npm     
 ansi-html-community                                                            0.0.8                  npm     
 ansi-regex                                                                     2.1.1                  npm     
@@ -1058,7 +1058,7 @@ libacl                                                                         2
 libattr                                                                        2.5.1-r2               apk     
 libbsd                                                                         0.11.7-r0              apk     
 libc-utils                                                                     0.7.2-r3               apk     
-libcrypto3                                                                     3.0.8-r1               apk     
+libcrypto3                                                                     3.0.8-r3               apk     
 libcurl                                                                        7.88.1-r1              apk     
 libedit                                                                        20221030.3.1-r0        apk     
 libexpat                                                                       2.5.0-r0               apk     
@@ -1082,7 +1082,7 @@ libphonenumber-js-max                                                          1
 libphonenumber-js-min                                                          1.0.0                  npm     
 libphonenumber-js-mobile                                                       1.0.0                  npm     
 libproc                                                                        3.3.17-r2              apk     
-libssl3                                                                        3.0.8-r1               apk     
+libssl3                                                                        3.0.8-r3               apk     
 libstdc++                                                                      12.2.1_git20220924-r4  apk     
 libuuid                                                                        2.38.1-r1              apk     
 libxml2                                                                        2.10.3-r1              apk     
@@ -1694,7 +1694,7 @@ typedarray-to-buffer                                                           3
 typeorm                                                                        0.2.38                 npm     
 typescript                                                                     4.4.4                  npm     
 typescript                                                                     4.5.3                  npm     
-tzdata                                                                         2023b-r1               apk     
+tzdata                                                                         2023c-r0               apk     
 uglify-js                                                                      3.14.3                 npm     
 unbox-primitive                                                                1.0.1                  npm     
 unicode-canonical-property-names-ecmascript                                    2.0.0                  npm     
