@@ -225,6 +225,7 @@ Once registered you can define the dockerfile to use with `-f Dockerfile.aarch64
 
 ## Versions
 
+* **13.04.23:** - Move ssl.conf include to default.conf.
 * **29.11.22:** - Rebase to Alpine 3.17, migrate to s6v3.
 * **04.15.22:** - Added NPM command to run db migrations.
 * **02.05.22:** - Initial Release.
