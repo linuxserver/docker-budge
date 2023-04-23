@@ -1264,7 +1264,7 @@ one-time                                                                       1
 onetime                                                                        5.1.2                  npm     
 oniguruma                                                                      6.9.8-r0               apk     
 open                                                                           8.4.0                  npm     
-openssl                                                                        3.0.8-r3               apk     
+openssl                                                                        3.0.8-r4               apk     
 optional-require                                                               1.1.8                  npm     
 optionator                                                                     0.8.3                  npm     
 optionator                                                                     0.9.1                  npm     
@@ -1482,7 +1482,7 @@ regenerate-unicode-properties                                                  1
 regenerator-runtime                                                            0.13.9                 npm     
 regenerator-transform                                                          0.14.5                 npm     
 regex-parser                                                                   2.2.11                 npm     
-regexp.prototype.flags                                                         1.4.3                  npm     
+regexp.prototype.flags                                                         1.5.0                  npm     
 regexpp                                                                        3.2.0                  npm     
 regexpu-core                                                                   5.0.1                  npm     
 regjsgen                                                                       0.6.0                  npm     
