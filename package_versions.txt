@@ -404,6 +404,7 @@ argparse                                                                       1
 argparse                                                                       2.0.1                  npm     
 aria-query                                                                     4.2.2                  npm     
 aria-query                                                                     5.1.3                  npm     
+array-buffer-byte-length                                                       1.0.0                  npm     
 array-flatten                                                                  1.1.1                  npm     
 array-flatten                                                                  2.1.2                  npm     
 array-includes                                                                 3.1.4                  npm     
@@ -628,7 +629,7 @@ decode-uri-component                                                           0
 decompress-response                                                            6.0.0                  npm     
 dedent                                                                         0.7.0                  npm     
 deep-equal                                                                     1.1.1                  npm     
-deep-equal                                                                     2.2.0                  npm     
+deep-equal                                                                     2.2.1                  npm     
 deep-extend                                                                    0.6.0                  npm     
 deep-is                                                                        0.1.4                  npm     
 deepmerge                                                                      4.2.2                  npm     
@@ -814,7 +815,7 @@ get-stream                                                                     5
 get-stream                                                                     6.0.1                  npm     
 get-symbol-description                                                         1.0.0                  npm     
 getpass                                                                        0.1.7                  npm     
-git                                                                            2.38.4-r1              apk     
+git                                                                            2.38.5-r0              apk     
 glob                                                                           7.1.6                  npm     
 glob                                                                           7.2.0                  npm     
 glob                                                                           7.2.3                  npm     
@@ -1058,7 +1059,7 @@ libacl                                                                         2
 libattr                                                                        2.5.1-r2               apk     
 libbsd                                                                         0.11.7-r0              apk     
 libc-utils                                                                     0.7.2-r3               apk     
-libcrypto3                                                                     3.0.8-r3               apk     
+libcrypto3                                                                     3.0.8-r4               apk     
 libcurl                                                                        8.0.1-r0               apk     
 libedit                                                                        20221030.3.1-r0        apk     
 libexpat                                                                       2.5.0-r0               apk     
@@ -1082,7 +1083,7 @@ libphonenumber-js-max                                                          1
 libphonenumber-js-min                                                          1.0.0                  npm     
 libphonenumber-js-mobile                                                       1.0.0                  npm     
 libproc                                                                        3.3.17-r2              apk     
-libssl3                                                                        3.0.8-r3               apk     
+libssl3                                                                        3.0.8-r4               apk     
 libstdc++                                                                      12.2.1_git20220924-r4  apk     
 libuuid                                                                        2.38.1-r1              apk     
 libxml2                                                                        2.10.4-r0              apk     
