@@ -487,7 +487,7 @@ busybox-binsh                                                                  1
 bytes                                                                          3.0.0                  npm     
 bytes                                                                          3.1.0                  npm     
 bytes                                                                          3.1.2                  npm     
-c-ares                                                                         1.18.1-r1              apk     
+c-ares                                                                         1.19.1-r0              apk     
 ca-certificates                                                                20230506-r0            apk     
 ca-certificates-bundle                                                         20230506-r0            apk     
 cacache                                                                        16.1.3                 npm     
@@ -612,7 +612,7 @@ cssstyle                                                                       2
 csstype                                                                        3.0.10                 npm     
 csv-parse                                                                      4.16.3                 npm     
 csv-parse                                                                      5.0.4                  npm     
-curl                                                                           8.0.1-r0               apk     
+curl                                                                           8.1.0-r1               apk     
 cycle                                                                          1.0.3                  npm     
 damerau-levenshtein                                                            1.0.8                  npm     
 dashdash                                                                       1.14.1                 npm     
@@ -1061,7 +1061,7 @@ libattr                                                                        2
 libbsd                                                                         0.11.7-r0              apk     
 libc-utils                                                                     0.7.2-r3               apk     
 libcrypto3                                                                     3.0.8-r4               apk     
-libcurl                                                                        8.0.1-r0               apk     
+libcurl                                                                        8.1.0-r1               apk     
 libedit                                                                        20221030.3.1-r0        apk     
 libexpat                                                                       2.5.0-r0               apk     
 libgcc                                                                         12.2.1_git20220924-r4  apk     
@@ -1180,7 +1180,7 @@ ms                                                                             2
 multicast-dns                                                                  6.2.3                  npm     
 multicast-dns-service-types                                                    1.1.0                  npm     
 musl                                                                           1.2.3-r5               apk     
-musl-utils                                                                     1.2.3-r4               apk     
+musl-utils                                                                     1.2.3-r5               apk     
 mute-stream                                                                    0.0.8                  npm     
 mylib                                                                          0.0.0                  npm     
 mysql                                                                          2.18.1                 npm     
