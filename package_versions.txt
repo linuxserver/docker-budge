@@ -243,7 +243,7 @@ NAME                                                                           V
 @svgr/webpack                                                                  5.5.0                   npm     
 @szmarczak/http-timer                                                          4.0.6                   npm     
 @testing-library/dom                                                           7.31.2                  npm     
-@testing-library/dom                                                           9.3.0                   npm     
+@testing-library/dom                                                           9.3.1                   npm     
 @testing-library/jest-dom                                                      5.15.0                  npm     
 @testing-library/react                                                         11.2.7                  npm     
 @testing-library/user-event                                                    12.8.3                  npm     
@@ -897,8 +897,8 @@ hyphenate-style-name                                                           1
 iconv-lite                                                                     0.4.24                  npm     
 iconv-lite                                                                     0.6.3                   npm     
 icss-utils                                                                     5.1.0                   npm     
-icu-data-en                                                                    73.1-r1                 apk     
-icu-libs                                                                       73.1-r1                 apk     
+icu-data-en                                                                    73.2-r0                 apk     
+icu-libs                                                                       73.2-r0                 apk     
 idb                                                                            6.1.5                   npm     
 identity-obj-proxy                                                             3.0.0                   npm     
 ieee754                                                                        1.2.1                   npm     
