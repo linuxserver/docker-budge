@@ -376,7 +376,7 @@ ajv-keywords                                                                   5
 alpine-baselayout                                                              3.4.3-r1                apk     
 alpine-baselayout-data                                                         3.4.3-r1                apk     
 alpine-keys                                                                    2.4-r1                  apk     
-alpine-release                                                                 3.18.0-r0               apk     
+alpine-release                                                                 3.18.2-r0               apk     
 ansi-escapes                                                                   4.3.2                   npm     
 ansi-html-community                                                            0.0.8                   npm     
 ansi-regex                                                                     2.1.1                   npm     
@@ -1190,7 +1190,7 @@ minizlib                                                                       1
 minizlib                                                                       2.1.2                   npm     
 mkdirp                                                                         0.5.5                   npm     
 mkdirp                                                                         1.0.4                   npm     
-mongodb                                                                        3.7.3                   npm     
+mongodb                                                                        3.7.4                   npm     
 monorepo-symlink-test                                                          0.0.0                   npm     
 morgan                                                                         1.10.0                  npm     
 ms                                                                             2.0.0                   npm     
@@ -1218,7 +1218,7 @@ netcat-openbsd                                                                 1
 nghttp2-libs                                                                   1.53.0-r0               apk     
 nginx                                                                          1.24.0-r6               apk     
 no-case                                                                        3.0.4                   npm     
-node                                                                           18.16.0                 binary  
+node                                                                           18.16.1                 binary  
 node-addon-api                                                                 3.2.1                   npm     
 node-fetch                                                                     2.6.6                   npm     
 node-forge                                                                     1.2.1                   npm     
@@ -1228,7 +1228,7 @@ node-gyp                                                                       9
 node-int64                                                                     0.4.0                   npm     
 node-pre-gyp                                                                   0.11.0                  npm     
 node-releases                                                                  2.0.2                   npm     
-nodejs                                                                         18.16.0-r1              apk     
+nodejs                                                                         18.16.1-r0              apk     
 nopt                                                                           3.0.6                   npm     
 nopt                                                                           4.0.3                   npm     
 nopt                                                                           5.0.0                   npm     
@@ -1579,7 +1579,7 @@ setprototypeof                                                                 1
 setprototypeof                                                                 1.1.1                   npm     
 setprototypeof                                                                 1.2.0                   npm     
 sha.js                                                                         2.4.11                  npm     
-shadow                                                                         4.13-r2                 apk     
+shadow                                                                         4.13-r4                 apk     
 shebang-command                                                                2.0.0                   npm     
 shebang-regex                                                                  3.0.0                   npm     
 shell-quote                                                                    1.7.3                   npm     
