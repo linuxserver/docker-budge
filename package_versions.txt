@@ -391,7 +391,7 @@ ansi-styles                                                                    5
 ansi-styles                                                                    6.2.1                   npm     
 any-promise                                                                    1.3.0                   npm     
 anymatch                                                                       3.1.2                   npm     
-apache2-utils                                                                  2.4.57-r2               apk     
+apache2-utils                                                                  2.4.57-r3               apk     
 apk-tools                                                                      2.14.0-r2               apk     
 app-root-path                                                                  3.0.0                   npm     
 apr                                                                            1.7.4-r0                apk     
