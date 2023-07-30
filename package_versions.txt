@@ -618,7 +618,7 @@ cssstyle                                                                       2
 csstype                                                                        3.0.10                  npm     
 csv-parse                                                                      4.16.3                  npm     
 csv-parse                                                                      5.0.4                   npm     
-curl                                                                           8.1.2-r0                apk     
+curl                                                                           8.2.0-r1                apk     
 cycle                                                                          1.0.3                   npm     
 damerau-levenshtein                                                            1.0.8                   npm     
 dashdash                                                                       1.14.1                  npm     
@@ -1074,7 +1074,7 @@ libbsd                                                                         0
 libbz2                                                                         1.0.8-r5                apk     
 libc-utils                                                                     0.7.2-r5                apk     
 libcrypto3                                                                     3.1.1-r3                apk     
-libcurl                                                                        8.1.2-r0                apk     
+libcurl                                                                        8.2.0-r1                apk     
 libedit                                                                        20221030.3.1-r1         apk     
 libexpat                                                                       2.5.0-r1                apk     
 libgcc                                                                         12.2.1_git20220924-r10  apk     
@@ -1199,7 +1199,7 @@ ms                                                                             2
 ms                                                                             2.1.3                   npm     
 multicast-dns                                                                  6.2.3                   npm     
 multicast-dns-service-types                                                    1.1.0                   npm     
-musl                                                                           1.2.4-r0                apk     
+musl                                                                           1.2.4-r1                apk     
 musl-utils                                                                     1.2.4-r0                apk     
 mute-stream                                                                    0.0.8                   npm     
 mute-stream                                                                    1.0.0                   npm     
@@ -1215,7 +1215,7 @@ negotiator                                                                     0
 negotiator                                                                     0.6.3                   npm     
 neo-async                                                                      2.6.2                   npm     
 netcat-openbsd                                                                 1.219-r1                apk     
-nghttp2-libs                                                                   1.53.0-r0               apk     
+nghttp2-libs                                                                   1.55.1-r0               apk     
 nginx                                                                          1.24.0-r6               apk     
 no-case                                                                        3.0.4                   npm     
 node                                                                           18.17.0                 binary  
