@@ -488,8 +488,8 @@ buffer-writer                                                                  2
 builtin-modules                                                                3.2.0                   npm     
 builtins                                                                       5.0.1                   npm     
 busybox                                                                        1.36.1                  binary  
-busybox                                                                        1.36.1-r1               apk     
-busybox-binsh                                                                  1.36.1-r1               apk     
+busybox                                                                        1.36.1-r2               apk     
+busybox-binsh                                                                  1.36.1-r2               apk     
 bytes                                                                          3.0.0                   npm     
 bytes                                                                          3.1.0                   npm     
 bytes                                                                          3.1.2                   npm     
@@ -618,7 +618,7 @@ cssstyle                                                                       2
 csstype                                                                        3.0.10                  npm     
 csv-parse                                                                      4.16.3                  npm     
 csv-parse                                                                      5.0.4                   npm     
-curl                                                                           8.2.0-r1                apk     
+curl                                                                           8.2.1-r0                apk     
 cycle                                                                          1.0.3                   npm     
 damerau-levenshtein                                                            1.0.8                   npm     
 dashdash                                                                       1.14.1                  npm     
@@ -1074,7 +1074,7 @@ libbsd                                                                         0
 libbz2                                                                         1.0.8-r5                apk     
 libc-utils                                                                     0.7.2-r5                apk     
 libcrypto3                                                                     3.1.1-r3                apk     
-libcurl                                                                        8.2.0-r1                apk     
+libcurl                                                                        8.2.1-r0                apk     
 libedit                                                                        20221030.3.1-r1         apk     
 libexpat                                                                       2.5.0-r1                apk     
 libgcc                                                                         12.2.1_git20220924-r10  apk     
@@ -1200,7 +1200,7 @@ ms                                                                             2
 multicast-dns                                                                  6.2.3                   npm     
 multicast-dns-service-types                                                    1.1.0                   npm     
 musl                                                                           1.2.4-r1                apk     
-musl-utils                                                                     1.2.4-r0                apk     
+musl-utils                                                                     1.2.4-r1                apk     
 mute-stream                                                                    0.0.8                   npm     
 mute-stream                                                                    1.0.0                   npm     
 mylib                                                                          0.0.0                   npm     
@@ -1621,7 +1621,7 @@ sqlite                                                                         3
 sqlite3                                                                        5.0.2                   npm     
 sqlstring                                                                      2.3.1                   npm     
 sshpk                                                                          1.16.1                  npm     
-ssl_client                                                                     1.36.1-r1               apk     
+ssl_client                                                                     1.36.1-r2               apk     
 ssri                                                                           10.0.4                  npm     
 ssri                                                                           9.0.1                   npm     
 stable                                                                         0.1.8                   npm     
