@@ -1226,7 +1226,7 @@ node-gyp                                                                       9
 node-int64                                                                     0.4.0                   npm   
 node-pre-gyp                                                                   0.11.0                  npm   
 node-releases                                                                  2.0.2                   npm   
-nodejs                                                                         18.17.0-r0              apk   
+nodejs                                                                         18.17.1-r0              apk   
 nopt                                                                           3.0.6                   npm   
 nopt                                                                           4.0.3                   npm   
 nopt                                                                           5.0.0                   npm   
