@@ -376,7 +376,7 @@ ajv-keywords                                                                   5
 alpine-baselayout                                                              3.4.3-r1                apk   
 alpine-baselayout-data                                                         3.4.3-r1                apk   
 alpine-keys                                                                    2.4-r1                  apk   
-alpine-release                                                                 3.18.3-r0               apk   
+alpine-release                                                                 3.18.4-r0               apk   
 ansi-escapes                                                                   4.3.2                   npm   
 ansi-html-community                                                            0.0.8                   npm   
 ansi-regex                                                                     2.1.1                   npm   
@@ -1199,7 +1199,7 @@ ms                                                                             2
 ms                                                                             2.1.3                   npm   
 multicast-dns                                                                  6.2.3                   npm   
 multicast-dns-service-types                                                    1.1.0                   npm   
-musl                                                                           1.2.4-r1                apk   
+musl                                                                           1.2.4-r2                apk   
 musl-utils                                                                     1.2.4-r1                apk   
 mute-stream                                                                    0.0.8                   npm   
 mute-stream                                                                    1.0.0                   npm   
