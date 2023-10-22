@@ -259,7 +259,7 @@ NAME                                                                           V
 @tufjs/canonical-json                                                          1.0.0                   npm   
 @tufjs/models                                                                  1.0.4                   npm   
 @types/aria-query                                                              4.2.2                   npm   
-@types/aria-query                                                              5.0.2                   npm   
+@types/aria-query                                                              5.0.3                   npm   
 @types/babel__core                                                             7.1.18                  npm   
 @types/babel__generator                                                        7.6.4                   npm   
 @types/babel__template                                                         7.4.1                   npm   
@@ -391,7 +391,7 @@ ansi-styles                                                                    5
 ansi-styles                                                                    6.2.1                   npm   
 any-promise                                                                    1.3.0                   npm   
 anymatch                                                                       3.1.2                   npm   
-apache2-utils                                                                  2.4.57-r3               apk   
+apache2-utils                                                                  2.4.58-r0               apk   
 apk-tools                                                                      2.14.0-r2               apk   
 app-root-path                                                                  3.0.0                   npm   
 apr                                                                            1.7.4-r0                apk   
@@ -487,8 +487,8 @@ buffer-indexof                                                                 1
 buffer-writer                                                                  2.0.0                   npm   
 builtin-modules                                                                3.2.0                   npm   
 builtins                                                                       5.0.1                   npm   
-busybox                                                                        1.36.1-r2               apk   
-busybox-binsh                                                                  1.36.1-r2               apk   
+busybox                                                                        1.36.1-r4               apk   
+busybox-binsh                                                                  1.36.1-r4               apk   
 bytes                                                                          3.0.0                   npm   
 bytes                                                                          3.1.0                   npm   
 bytes                                                                          3.1.2                   npm   
@@ -500,6 +500,7 @@ cacache                                                                        1
 cacheable-lookup                                                               5.0.4                   npm   
 cacheable-request                                                              7.0.2                   npm   
 call-bind                                                                      1.0.2                   npm   
+call-bind                                                                      1.0.5                   npm   
 callsites                                                                      3.1.0                   npm   
 camel-case                                                                     4.1.2                   npm   
 camelcase                                                                      5.3.1                   npm   
@@ -617,7 +618,7 @@ cssstyle                                                                       2
 csstype                                                                        3.0.10                  npm   
 csv-parse                                                                      4.16.3                  npm   
 csv-parse                                                                      5.0.4                   npm   
-curl                                                                           8.3.0-r0                apk   
+curl                                                                           8.4.0-r0                apk   
 cycle                                                                          1.0.3                   npm   
 damerau-levenshtein                                                            1.0.8                   npm   
 dashdash                                                                       1.14.1                  npm   
@@ -807,6 +808,7 @@ fs-monkey                                                                      1
 fs.realpath                                                                    1.0.0                   npm   
 fstream                                                                        1.0.12                  npm   
 function-bind                                                                  1.1.1                   npm   
+function-bind                                                                  1.1.2                   npm   
 functional-red-black-tree                                                      1.0.1                   npm   
 functions-have-names                                                           1.2.2                   npm   
 functions-have-names                                                           1.2.3                   npm   
@@ -817,7 +819,7 @@ gauge                                                                          5
 gensync                                                                        1.0.0-beta.2            npm   
 get-caller-file                                                                2.0.5                   npm   
 get-intrinsic                                                                  1.1.1                   npm   
-get-intrinsic                                                                  1.2.1                   npm   
+get-intrinsic                                                                  1.2.2                   npm   
 get-own-enumerable-property-symbols                                            3.0.2                   npm   
 get-package-type                                                               0.1.0                   npm   
 get-stream                                                                     5.2.0                   npm   
@@ -856,12 +858,13 @@ has-ansi                                                                       2
 has-bigints                                                                    1.0.1                   npm   
 has-flag                                                                       3.0.0                   npm   
 has-flag                                                                       4.0.0                   npm   
-has-property-descriptors                                                       1.0.0                   npm   
+has-property-descriptors                                                       1.0.1                   npm   
 has-proto                                                                      1.0.1                   npm   
 has-symbols                                                                    1.0.2                   npm   
 has-symbols                                                                    1.0.3                   npm   
 has-tostringtag                                                                1.0.0                   npm   
 has-unicode                                                                    2.0.1                   npm   
+hasown                                                                         2.0.0                   npm   
 he                                                                             1.2.0                   npm   
 helmet                                                                         4.6.0                   npm   
 highlight.js                                                                   10.7.3                  npm   
@@ -921,7 +924,7 @@ ini                                                                            4
 init-package-json                                                              5.0.0                   npm   
 insert-css                                                                     2.0.0                   npm   
 internal-slot                                                                  1.0.3                   npm   
-internal-slot                                                                  1.0.5                   npm   
+internal-slot                                                                  1.0.6                   npm   
 ip                                                                             1.1.5                   npm   
 ip                                                                             2.0.0                   npm   
 ip-regex                                                                       4.3.0                   npm   
@@ -1074,7 +1077,7 @@ libbsd                                                                         0
 libbz2                                                                         1.0.8-r5                apk   
 libc-utils                                                                     0.7.2-r5                apk   
 libcrypto3                                                                     3.1.3-r0                apk   
-libcurl                                                                        8.3.0-r0                apk   
+libcurl                                                                        8.4.0-r0                apk   
 libedit                                                                        20221030.3.1-r1         apk   
 libexpat                                                                       2.5.0-r1                apk   
 libgcc                                                                         12.2.1_git20220924-r10  apk   
@@ -1215,8 +1218,8 @@ negotiator                                                                     0
 negotiator                                                                     0.6.3                   npm   
 neo-async                                                                      2.6.2                   npm   
 netcat-openbsd                                                                 1.219-r1                apk   
-nghttp2-libs                                                                   1.55.1-r0               apk   
-nginx                                                                          1.24.0-r6               apk   
+nghttp2-libs                                                                   1.57.0-r0               apk   
+nginx                                                                          1.24.0-r7               apk   
 no-case                                                                        3.0.4                   npm   
 node-addon-api                                                                 3.2.1                   npm   
 node-fetch                                                                     2.6.6                   npm   
@@ -1572,6 +1575,7 @@ serve-index                                                                    1
 serve-static                                                                   1.14.1                  npm   
 serve-static                                                                   1.14.2                  npm   
 set-blocking                                                                   2.0.0                   npm   
+set-function-length                                                            1.1.1                   npm   
 set-function-name                                                              2.0.1                   npm   
 setprototypeof                                                                 1.1.0                   npm   
 setprototypeof                                                                 1.1.1                   npm   
@@ -1619,7 +1623,7 @@ sqlite                                                                         3
 sqlite3                                                                        5.0.2                   npm   
 sqlstring                                                                      2.3.1                   npm   
 sshpk                                                                          1.16.1                  npm   
-ssl_client                                                                     1.36.1-r2               apk   
+ssl_client                                                                     1.36.1-r4               apk   
 ssri                                                                           10.0.4                  npm   
 ssri                                                                           9.0.1                   npm   
 stable                                                                         0.1.8                   npm   
@@ -1791,7 +1795,7 @@ which                                                                          3
 which-boxed-primitive                                                          1.0.2                   npm   
 which-collection                                                               1.0.1                   npm   
 which-module                                                                   2.0.0                   npm   
-which-typed-array                                                              1.1.11                  npm   
+which-typed-array                                                              1.1.13                  npm   
 wide-align                                                                     1.1.5                   npm   
 winston                                                                        2.4.5                   npm   
 winston                                                                        3.3.3                   npm   
