@@ -376,7 +376,7 @@ ajv-keywords                                                                   5
 alpine-baselayout                                                              3.4.3-r1                apk   
 alpine-baselayout-data                                                         3.4.3-r1                apk   
 alpine-keys                                                                    2.4-r1                  apk   
-alpine-release                                                                 3.18.4-r0               apk   
+alpine-release                                                                 3.18.5-r0               apk   
 ansi-escapes                                                                   4.3.2                   npm   
 ansi-html-community                                                            0.0.8                   npm   
 ansi-regex                                                                     2.1.1                   npm   
