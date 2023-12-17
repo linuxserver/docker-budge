@@ -618,7 +618,7 @@ cssstyle                                                                       2
 csstype                                                                        3.0.10                  npm   
 csv-parse                                                                      4.16.3                  npm   
 csv-parse                                                                      5.0.4                   npm   
-curl                                                                           8.4.0-r0                apk   
+curl                                                                           8.5.0-r0                apk   
 cycle                                                                          1.0.3                   npm   
 damerau-levenshtein                                                            1.0.8                   npm   
 dashdash                                                                       1.14.1                  npm   
@@ -1021,7 +1021,7 @@ jest-watch-typeahead                                                           1
 jest-watcher                                                                   27.5.1                  npm   
 jest-worker                                                                    26.6.2                  npm   
 jest-worker                                                                    27.5.1                  npm   
-jq                                                                             1.6-r3                  apk   
+jq                                                                             1.6-r4                  apk   
 js-tokens                                                                      4.0.0                   npm   
 js-yaml                                                                        3.14.1                  npm   
 js-yaml                                                                        4.1.0                   npm   
@@ -1077,7 +1077,7 @@ libbsd                                                                         0
 libbz2                                                                         1.0.8-r5                apk   
 libc-utils                                                                     0.7.2-r5                apk   
 libcrypto3                                                                     3.1.4-r1                apk   
-libcurl                                                                        8.4.0-r0                apk   
+libcurl                                                                        8.5.0-r0                apk   
 libedit                                                                        20221030.3.1-r1         apk   
 libexpat                                                                       2.5.0-r1                apk   
 libgcc                                                                         12.2.1_git20220924-r10  apk   
