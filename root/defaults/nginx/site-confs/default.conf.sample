@@ -1,4 +1,4 @@
-## Version 2023/04/13 - Changelog: https://github.com/linuxserver/docker-budge/commits/main/root/defaults/nginx/site-confs/default.conf.sample
+## Version 2023/12/25 - Changelog: https://github.com/linuxserver/docker-budge/commits/main/root/defaults/nginx/site-confs/default.conf.sample
 
 server {
     listen 80 default_server;
@@ -12,7 +12,7 @@ server {
     include /config/nginx/ssl.conf;
 
     root /app/www/public/frontend/build;
-    index index.php index.html index.htm;
+    index index.html;
 
     location / {
         # enable for basic auth
