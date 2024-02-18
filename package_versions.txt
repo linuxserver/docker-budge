@@ -500,7 +500,7 @@ cacache                                                                        1
 cacheable-lookup                                                               5.0.4                   npm     
 cacheable-request                                                              7.0.2                   npm     
 call-bind                                                                      1.0.2                   npm     
-call-bind                                                                      1.0.6                   npm     
+call-bind                                                                      1.0.7                   npm     
 callsites                                                                      3.1.0                   npm     
 camel-case                                                                     4.1.2                   npm     
 camelcase                                                                      5.3.1                   npm     
@@ -564,7 +564,7 @@ common-ancestor-path                                                           1
 common-path-prefix                                                             3.0.0                   npm     
 common-tags                                                                    1.8.2                   npm     
 commondir                                                                      1.0.1                   npm     
-composer                                                                       2.7.0                   binary  
+composer                                                                       2.7.1                   binary  
 compressible                                                                   2.0.18                  npm     
 compression                                                                    1.7.4                   npm     
 concat-map                                                                     0.0.1                   npm     
@@ -643,7 +643,7 @@ deepmerge                                                                      4
 default-gateway                                                                6.0.3                   npm     
 defaults                                                                       1.0.4                   npm     
 defer-to-connect                                                               2.0.1                   npm     
-define-data-property                                                           1.1.2                   npm     
+define-data-property                                                           1.1.4                   npm     
 define-lazy-prop                                                               2.0.0                   npm     
 define-properties                                                              1.1.3                   npm     
 define-properties                                                              1.2.1                   npm     
@@ -714,6 +714,7 @@ error-stack-parser                                                             2
 es-abstract                                                                    1.19.1                  npm     
 es-aggregate-error                                                             1.0.7                   npm     
 es-array-method-boxes-properly                                                 1.0.0                   npm     
+es-define-property                                                             1.0.0                   npm     
 es-errors                                                                      1.3.0                   npm     
 es-get-iterator                                                                1.1.2                   npm     
 es-get-iterator                                                                1.1.3                   npm     
@@ -860,14 +861,14 @@ has-ansi                                                                       2
 has-bigints                                                                    1.0.1                   npm     
 has-flag                                                                       3.0.0                   npm     
 has-flag                                                                       4.0.0                   npm     
-has-property-descriptors                                                       1.0.1                   npm     
+has-property-descriptors                                                       1.0.2                   npm     
 has-proto                                                                      1.0.1                   npm     
 has-symbols                                                                    1.0.2                   npm     
 has-symbols                                                                    1.0.3                   npm     
 has-tostringtag                                                                1.0.0                   npm     
 has-tostringtag                                                                1.0.2                   npm     
 has-unicode                                                                    2.0.1                   npm     
-hasown                                                                         2.0.0                   npm     
+hasown                                                                         2.0.1                   npm     
 he                                                                             1.2.0                   npm     
 helmet                                                                         4.6.0                   npm     
 highlight.js                                                                   10.7.3                  npm     
@@ -1081,7 +1082,7 @@ libc-utils                                                                     0
 libcrypto3                                                                     3.1.4-r5                apk     
 libcurl                                                                        8.5.0-r0                apk     
 libedit                                                                        20221030.3.1-r1         apk     
-libexpat                                                                       2.5.0-r1                apk     
+libexpat                                                                       2.6.0-r0                apk     
 libgcc                                                                         12.2.1_git20220924-r10  apk     
 libidn2                                                                        2.3.4-r1                apk     
 libintl                                                                        0.21.1-r7               apk     
@@ -1108,7 +1109,7 @@ libssl3                                                                        3
 libstdc++                                                                      12.2.1_git20220924-r10  apk     
 libunistring                                                                   1.1-r1                  apk     
 libuuid                                                                        2.38.1-r8               apk     
-libxml2                                                                        2.11.6-r0               apk     
+libxml2                                                                        2.11.7-r0               apk     
 libzip                                                                         1.9.2-r2                apk     
 lilconfig                                                                      2.0.4                   npm     
 lines-and-columns                                                              1.1.6                   npm     
@@ -1232,7 +1233,7 @@ node-gyp                                                                       9
 node-int64                                                                     0.4.0                   npm     
 node-pre-gyp                                                                   0.11.0                  npm     
 node-releases                                                                  2.0.2                   npm     
-nodejs                                                                         18.18.2-r0              apk     
+nodejs                                                                         18.19.1-r0              apk     
 nopt                                                                           3.0.6                   npm     
 nopt                                                                           4.0.3                   npm     
 nopt                                                                           5.0.0                   npm     
@@ -1513,7 +1514,7 @@ regenerate-unicode-properties                                                  1
 regenerator-runtime                                                            0.13.9                  npm     
 regenerator-transform                                                          0.14.5                  npm     
 regex-parser                                                                   2.2.11                  npm     
-regexp.prototype.flags                                                         1.5.1                   npm     
+regexp.prototype.flags                                                         1.5.2                   npm     
 regexpp                                                                        3.2.0                   npm     
 regexpu-core                                                                   5.0.1                   npm     
 regjsgen                                                                       0.6.0                   npm     
