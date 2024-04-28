@@ -561,7 +561,7 @@ common-ancestor-path                                                           1
 common-path-prefix                                                             3.0.0                  npm                       
 common-tags                                                                    1.8.2                  npm                       
 commondir                                                                      1.0.1                  npm                       
-composer                                                                       2.7.2                  binary                    
+composer                                                                       2.7.4                  binary                    
 compressible                                                                   2.0.18                 npm                       
 compression                                                                    1.7.4                  npm                       
 concat-map                                                                     0.0.1                  npm     (+1 duplicate)    
@@ -858,7 +858,6 @@ hasown                                                                         2
 he                                                                             1.2.0                  npm                       
 helmet                                                                         4.6.0                  npm                       
 highlight.js                                                                   10.7.3                 npm                       
-hiredis                                                                        1.2.0-r0               apk                       
 history                                                                        5.1.0                  npm                       
 hoist-non-react-statics                                                        3.3.2                  npm                       
 hoopy                                                                          0.1.4                  npm                       
@@ -1200,7 +1199,7 @@ negotiator                                                                     0
 neo-async                                                                      2.6.2                  npm     (+1 duplicate)    
 netcat-openbsd                                                                 1.226-r0               apk                       
 nghttp2-libs                                                                   1.58.0-r0              apk                       
-nginx                                                                          1.24.0-r15             apk                       
+nginx                                                                          1.24.0-r16             apk                       
 no-case                                                                        3.0.4                  npm                       
 node-addon-api                                                                 3.2.1                  npm                       
 node-fetch                                                                     2.6.6                  npm                       
