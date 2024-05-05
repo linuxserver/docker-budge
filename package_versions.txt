@@ -243,7 +243,7 @@ NAME                                                                           V
 @svgr/plugin-svgo                                                              5.5.0                  npm                       
 @svgr/webpack                                                                  5.5.0                  npm                       
 @szmarczak/http-timer                                                          4.0.6                  npm                       
-@testing-library/dom                                                           10.0.0                 npm                       
+@testing-library/dom                                                           10.1.0                 npm                       
 @testing-library/dom                                                           7.31.2                 npm                       
 @testing-library/jest-dom                                                      5.15.0                 npm                       
 @testing-library/react                                                         11.2.7                 npm                       
