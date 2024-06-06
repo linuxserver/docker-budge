@@ -1,6 +1,6 @@
 # syntax=docker/dockerfile:1
 
-FROM ghcr.io/linuxserver/baseimage-alpine-nginx:3.19
+FROM ghcr.io/linuxserver/baseimage-alpine-nginx:3.20
 
 # set version label
 ARG BUILD_DATE
@@ -16,7 +16,6 @@ RUN \
   echo "**** install build packages ****" && \
   apk add --no-cache --virtual=build-dependencies \
     build-base \
-    musl-dev \
     python3 && \
   echo "**** install runtime packages ****" && \
   apk add --no-cache \
@@ -33,7 +32,7 @@ RUN \
     /tmp/budge.tar.gz -L \
     "https://github.com/linuxserver/budge/archive/${BUDGE_RELEASE}.tar.gz" && \
   tar xf \
-  /tmp/budge.tar.gz -C \
+    /tmp/budge.tar.gz -C \
     /app/www/public/ --strip-components=1 && \
   echo "**** install backend ****" && \
   cd /app/www/public/backend && \
@@ -49,8 +48,9 @@ RUN \
   npm run build && \
   npm prune --omit=dev && \
   echo "**** overlay-fs bug workaround ****" && \
-    mv /app/www/public/frontend/node_modules /app/www/public/frontend/node_modules-tmp && \
+  mv /app/www/public/frontend/node_modules /app/www/public/frontend/node_modules-tmp && \
   mv /app/www/public/backend/node_modules /app/www/public/backend/node_modules-tmp && \
+  printf "Linuxserver.io version: ${VERSION}\nBuild-date: ${BUILD_DATE}" > /build_version && \
   echo "**** cleanup ****" && \
   npm cache clean --force && \
   apk del --purge \
