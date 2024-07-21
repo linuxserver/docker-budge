@@ -244,7 +244,7 @@ NAME                                                                           V
 @svgr/plugin-svgo                                                              5.5.0                  npm                       
 @svgr/webpack                                                                  5.5.0                  npm                       
 @szmarczak/http-timer                                                          4.0.6                  npm                       
-@testing-library/dom                                                           10.3.1                 npm                       
+@testing-library/dom                                                           10.3.2                 npm                       
 @testing-library/dom                                                           7.31.2                 npm                       
 @testing-library/jest-dom                                                      5.15.0                 npm                       
 @testing-library/react                                                         11.2.7                 npm                       
@@ -490,8 +490,8 @@ bytes                                                                          3
 bytes                                                                          3.1.0                  npm                       
 bytes                                                                          3.1.2                  npm     (+1 duplicate)    
 c-ares                                                                         1.28.1-r0              apk                       
-ca-certificates                                                                20240226-r0            apk                       
-ca-certificates-bundle                                                         20240226-r0            apk                       
+ca-certificates                                                                20240705-r0            apk                       
+ca-certificates-bundle                                                         20240705-r0            apk                       
 cacache                                                                        18.0.3                 npm                       
 cacheable-lookup                                                               5.0.4                  npm                       
 cacheable-request                                                              7.0.2                  npm                       
