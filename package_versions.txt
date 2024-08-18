@@ -1195,7 +1195,7 @@ negotiator                                                                     0
 neo-async                                                                      2.6.2                  npm     (+1 duplicate)    
 netcat-openbsd                                                                 1.226-r0               apk                       
 nghttp2-libs                                                                   1.62.1-r0              apk                       
-nginx                                                                          1.26.1-r0              apk                       
+nginx                                                                          1.26.2-r0              apk                       
 no-case                                                                        3.0.4                  npm                       
 node-addon-api                                                                 3.2.1                  npm                       
 node-fetch                                                                     2.6.6                  npm                       
