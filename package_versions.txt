@@ -395,7 +395,7 @@ anymatch                                                                       3
 apache2-utils                                                                  2.4.62-r0              apk                       
 apk-tools                                                                      2.14.4-r0              apk                       
 app-root-path                                                                  3.0.0                  npm                       
-apr                                                                            1.7.4-r0               apk                       
+apr                                                                            1.7.5-r0               apk                       
 apr-util                                                                       1.6.3-r1               apk                       
 aproba                                                                         1.2.0                  npm     (+1 duplicate)    
 aproba                                                                         2.0.0                  npm     (+1 duplicate)    
@@ -558,7 +558,7 @@ common-ancestor-path                                                           1
 common-path-prefix                                                             3.0.0                  npm                       
 common-tags                                                                    1.8.2                  npm                       
 commondir                                                                      1.0.1                  npm                       
-composer                                                                       2.7.8                  binary                    
+composer                                                                       2.7.9                  binary                    
 compressible                                                                   2.0.18                 npm                       
 compression                                                                    1.7.4                  npm                       
 concat-map                                                                     0.0.1                  npm     (+1 duplicate)    
@@ -616,7 +616,7 @@ cssstyle                                                                       2
 csstype                                                                        3.0.10                 npm                       
 csv-parse                                                                      4.16.3                 npm                       
 csv-parse                                                                      5.0.4                  npm                       
-curl                                                                           8.9.0-r0               apk                       
+curl                                                                           8.9.1-r1               apk                       
 cycle                                                                          1.0.3                  npm                       
 damerau-levenshtein                                                            1.0.8                  npm                       
 dashdash                                                                       1.14.1                 npm                       
@@ -1055,10 +1055,10 @@ libattr                                                                        2
 libbase64                                                                      0.5.2-r0               apk                       
 libbsd                                                                         0.12.2-r0              apk                       
 libbz2                                                                         1.0.8-r6               apk                       
-libcrypto3                                                                     3.3.1-r3               apk                       
-libcurl                                                                        8.9.0-r0               apk                       
+libcrypto3                                                                     3.3.2-r0               apk                       
+libcurl                                                                        8.9.1-r1               apk                       
 libedit                                                                        20240517.3.1-r0        apk                       
-libexpat                                                                       2.6.2-r0               apk                       
+libexpat                                                                       2.6.3-r0               apk                       
 libgcc                                                                         13.2.1_git20240309-r0  apk                       
 libidn2                                                                        2.3.7-r0               apk                       
 libintl                                                                        0.22.5-r0              apk                       
@@ -1082,7 +1082,7 @@ libphonenumber-js-min                                                          1
 libphonenumber-js-mobile                                                       1.0.0                  npm                       
 libproc2                                                                       4.0.4-r0               apk                       
 libpsl                                                                         0.21.5-r1              apk                       
-libssl3                                                                        3.3.1-r3               apk                       
+libssl3                                                                        3.3.2-r0               apk                       
 libstdc++                                                                      13.2.1_git20240309-r0  apk                       
 libunistring                                                                   1.2-r0                 apk                       
 libuuid                                                                        2.40.1-r1              apk                       
@@ -1259,7 +1259,7 @@ one-time                                                                       1
 onetime                                                                        5.1.2                  npm                       
 oniguruma                                                                      6.9.9-r0               apk                       
 open                                                                           8.4.0                  npm                       
-openssl                                                                        3.3.1-r3               apk                       
+openssl                                                                        3.3.2-r0               apk                       
 optional-require                                                               1.1.8                  npm                       
 optionator                                                                     0.8.3                  npm                       
 optionator                                                                     0.9.1                  npm                       
