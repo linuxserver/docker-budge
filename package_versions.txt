@@ -377,7 +377,7 @@ ajv-keywords                                                                   5
 alpine-baselayout                                                              3.6.5-r0               apk                       
 alpine-baselayout-data                                                         3.6.5-r0               apk                       
 alpine-keys                                                                    2.4-r1                 apk                       
-alpine-release                                                                 3.20.2-r0              apk                       
+alpine-release                                                                 3.20.3-r0              apk                       
 ansi-escapes                                                                   4.3.2                  npm                       
 ansi-html-community                                                            0.0.8                  npm                       
 ansi-regex                                                                     2.1.1                  npm     (+3 duplicates)   
@@ -616,7 +616,7 @@ cssstyle                                                                       2
 csstype                                                                        3.0.10                 npm                       
 csv-parse                                                                      4.16.3                 npm                       
 csv-parse                                                                      5.0.4                  npm                       
-curl                                                                           8.9.1-r1               apk                       
+curl                                                                           8.10.0-r0              apk                       
 cycle                                                                          1.0.3                  npm                       
 damerau-levenshtein                                                            1.0.8                  npm                       
 dashdash                                                                       1.14.1                 npm                       
@@ -1056,14 +1056,14 @@ libbase64                                                                      0
 libbsd                                                                         0.12.2-r0              apk                       
 libbz2                                                                         1.0.8-r6               apk                       
 libcrypto3                                                                     3.3.2-r0               apk                       
-libcurl                                                                        8.9.1-r1               apk                       
+libcurl                                                                        8.10.0-r0              apk                       
 libedit                                                                        20240517.3.1-r0        apk                       
 libexpat                                                                       2.6.3-r0               apk                       
 libgcc                                                                         13.2.1_git20240309-r0  apk                       
 libidn2                                                                        2.3.7-r0               apk                       
 libintl                                                                        0.22.5-r0              apk                       
 libmd                                                                          1.1.0-r0               apk                       
-libncursesw                                                                    6.4_p20240420-r0       apk                       
+libncursesw                                                                    6.4_p20240420-r1       apk                       
 libnpmaccess                                                                   8.0.6                  npm                       
 libnpmdiff                                                                     6.1.2                  npm                       
 libnpmexec                                                                     8.1.1                  npm                       
@@ -1188,7 +1188,7 @@ mz                                                                             2
 nano                                                                           8.0-r0                 apk                       
 nanoid                                                                         3.3.1                  npm                       
 natural-compare                                                                1.4.0                  npm                       
-ncurses-terminfo-base                                                          6.4_p20240420-r0       apk                       
+ncurses-terminfo-base                                                          6.4_p20240420-r1       apk                       
 needle                                                                         2.9.1                  npm                       
 negotiator                                                                     0.6.2                  npm                       
 negotiator                                                                     0.6.3                  npm     (+1 duplicate)    
@@ -1699,7 +1699,7 @@ typedarray-to-buffer                                                           3
 typeorm                                                                        0.2.38                 npm                       
 typescript                                                                     4.4.4                  npm                       
 typescript                                                                     4.5.3                  npm                       
-tzdata                                                                         2024a-r1               apk                       
+tzdata                                                                         2024b-r0               apk                       
 uglify-js                                                                      3.14.3                 npm                       
 unbox-primitive                                                                1.0.1                  npm     (+1 duplicate)    
 unicode-canonical-property-names-ecmascript                                    2.0.0                  npm                       
