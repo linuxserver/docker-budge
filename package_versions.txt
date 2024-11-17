@@ -1158,7 +1158,7 @@ libgcc                                                                         1
 libidn2                                                                        2.3.7-r0               apk                       
 libintl                                                                        0.22.5-r0              apk                       
 libmd                                                                          1.1.0-r0               apk                       
-libncursesw                                                                    6.4_p20240420-r1       apk                       
+libncursesw                                                                    6.4_p20240420-r2       apk                       
 libnpmaccess                                                                   8.0.6                  npm                       
 libnpmdiff                                                                     6.1.2                  npm                       
 libnpmexec                                                                     8.1.1                  npm                       
@@ -1283,7 +1283,7 @@ mz                                                                             2
 nano                                                                           8.0-r0                 apk                       
 nanoid                                                                         3.3.1                  npm                       
 natural-compare                                                                1.4.0                  npm                       
-ncurses-terminfo-base                                                          6.4_p20240420-r1       apk                       
+ncurses-terminfo-base                                                          6.4_p20240420-r2       apk                       
 needle                                                                         2.9.1                  npm                       
 negotiator                                                                     0.6.2                  npm                       
 negotiator                                                                     0.6.3                  npm     (+1 duplicate)    
