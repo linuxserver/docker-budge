@@ -398,7 +398,7 @@ ansi-styles                                                                    6
 any-promise                                                                    1.3.0                  npm                       
 anymatch                                                                       3.1.2                  npm                       
 apache2-utils                                                                  2.4.62-r0              apk                       
-apk-tools                                                                      2.14.4-r0              apk                       
+apk-tools                                                                      2.14.4-r1              apk                       
 app-root-path                                                                  3.0.0                  npm                       
 apr                                                                            1.7.5-r0               apk                       
 apr-util                                                                       1.6.3-r1               apk                       
@@ -568,7 +568,7 @@ common-ancestor-path                                                           1
 common-path-prefix                                                             3.0.0                  npm                       
 common-tags                                                                    1.8.2                  npm                       
 commondir                                                                      1.0.1                  npm                       
-composer                                                                       2.8.3                  binary                    
+composer                                                                       2.8.4                  binary                    
 compressible                                                                   2.0.18                 npm                       
 compression                                                                    1.7.4                  npm                       
 concat-map                                                                     0.0.1                  npm     (+1 duplicate)    
@@ -627,7 +627,7 @@ cssstyle                                                                       2
 csstype                                                                        3.0.10                 npm                       
 csv-parse                                                                      4.16.3                 npm                       
 csv-parse                                                                      5.0.4                  npm                       
-curl                                                                           8.9.1-r2               apk                       
+curl                                                                           8.11.0-r2              apk                       
 cycle                                                                          1.0.3                  npm                       
 damerau-levenshtein                                                            1.0.8                  npm                       
 dashdash                                                                       1.14.1                 npm                       
@@ -1156,7 +1156,7 @@ libbase64                                                                      0
 libbsd                                                                         0.12.2-r0              apk                       
 libbz2                                                                         1.0.8-r6               apk                       
 libcrypto3                                                                     3.3.2-r1               apk                       
-libcurl                                                                        8.9.1-r2               apk                       
+libcurl                                                                        8.11.0-r2              apk                       
 libedit                                                                        20240517.3.1-r0        apk                       
 libexpat                                                                       2.6.4-r0               apk                       
 libgcc                                                                         13.2.1_git20240309-r0  apk                       
