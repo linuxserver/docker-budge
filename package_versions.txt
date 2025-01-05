@@ -498,8 +498,8 @@ bytes                                                                          3
 bytes                                                                          3.1.0                  npm                       
 bytes                                                                          3.1.2                  npm     (+1 duplicate)    
 c-ares                                                                         1.33.1-r0              apk                       
-ca-certificates                                                                20240705-r0            apk                       
-ca-certificates-bundle                                                         20240705-r0            apk                       
+ca-certificates                                                                20241121-r0            apk                       
+ca-certificates-bundle                                                         20241121-r0            apk                       
 cacache                                                                        18.0.4                 npm                       
 cacache                                                                        19.0.1                 npm                       
 cacheable-lookup                                                               5.0.4                  npm                       
