@@ -381,7 +381,7 @@ ajv-keywords                                                                   5
 alpine-baselayout                                                              3.6.5-r0               apk                       
 alpine-baselayout-data                                                         3.6.5-r0               apk                       
 alpine-keys                                                                    2.4-r1                 apk                       
-alpine-release                                                                 3.20.3-r0              apk                       
+alpine-release                                                                 3.20.5-r0              apk                       
 ansi-escapes                                                                   4.3.2                  npm                       
 ansi-html-community                                                            0.0.8                  npm                       
 ansi-regex                                                                     2.1.1                  npm     (+3 duplicates)   
@@ -498,8 +498,8 @@ bytes                                                                          3
 bytes                                                                          3.1.0                  npm                       
 bytes                                                                          3.1.2                  npm     (+1 duplicate)    
 c-ares                                                                         1.33.1-r0              apk                       
-ca-certificates                                                                20241121-r0            apk                       
-ca-certificates-bundle                                                         20241121-r0            apk                       
+ca-certificates                                                                20241121-r1            apk                       
+ca-certificates-bundle                                                         20241121-r1            apk                       
 cacache                                                                        18.0.4                 npm                       
 cacache                                                                        19.0.1                 npm                       
 cacheable-lookup                                                               5.0.4                  npm                       
@@ -588,10 +588,10 @@ core-js-compat                                                                 3
 core-js-pure                                                                   3.19.1                 npm                       
 core-util-is                                                                   1.0.2                  npm                       
 core-util-is                                                                   1.0.3                  npm                       
-coreutils                                                                      9.5-r1                 apk                       
-coreutils-env                                                                  9.5-r1                 apk                       
-coreutils-fmt                                                                  9.5-r1                 apk                       
-coreutils-sha512sum                                                            9.5-r1                 apk                       
+coreutils                                                                      9.5-r2                 apk                       
+coreutils-env                                                                  9.5-r2                 apk                       
+coreutils-fmt                                                                  9.5-r2                 apk                       
+coreutils-sha512sum                                                            9.5-r2                 apk                       
 cors                                                                           2.8.5                  npm                       
 cosmiconfig                                                                    6.0.0                  npm     (+1 duplicate)    
 cosmiconfig                                                                    7.0.1                  npm                       
@@ -916,8 +916,8 @@ get-stream                                                                     5
 get-stream                                                                     6.0.1                  npm                       
 get-symbol-description                                                         1.0.0                  npm     (+1 duplicate)    
 getpass                                                                        0.1.7                  npm                       
-git                                                                            2.45.2-r0              apk                       
-git-init-template                                                              2.45.2-r0              apk                       
+git                                                                            2.45.3-r0              apk                       
+git-init-template                                                              2.45.3-r0              apk                       
 glob                                                                           10.4.5                 npm                       
 glob                                                                           7.1.6                  npm                       
 glob                                                                           7.2.0                  npm                       
@@ -931,6 +931,7 @@ globals                                                                        1
 globals                                                                        13.12.1                npm                       
 globalthis                                                                     1.0.2                  npm                       
 globby                                                                         11.0.4                 npm                       
+gmp                                                                            6.3.0-r1               apk                       
 got                                                                            11.8.3                 npm                       
 graceful-fs                                                                    4.2.11                 npm                       
 graceful-fs                                                                    4.2.8                  npm                       
