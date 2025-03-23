@@ -1159,7 +1159,7 @@ libbz2                                                                         1
 libcrypto3                                                                     3.3.3-r0               apk                       
 libcurl                                                                        8.12.1-r0              apk                       
 libedit                                                                        20240517.3.1-r0        apk                       
-libexpat                                                                       2.6.4-r0               apk                       
+libexpat                                                                       2.7.0-r0               apk                       
 libgcc                                                                         13.2.1_git20240309-r1  apk                       
 libidn2                                                                        2.3.7-r0               apk                       
 libintl                                                                        0.22.5-r0              apk                       
@@ -1301,7 +1301,7 @@ negotiator                                                                     1
 neo-async                                                                      2.6.2                  npm     (+1 duplicate)    
 netcat-openbsd                                                                 1.226-r0               apk                       
 nghttp2-libs                                                                   1.62.1-r0              apk                       
-nginx                                                                          1.26.2-r0              apk                       
+nginx                                                                          1.26.3-r0              apk                       
 no-case                                                                        3.0.4                  npm                       
 node-addon-api                                                                 3.2.1                  npm                       
 node-fetch                                                                     2.6.6                  npm                       
