@@ -1367,7 +1367,7 @@ onetime                                                                        5
 oniguruma                                                                      6.9.9-r0               apk                       
 open                                                                           8.4.0                  npm                       
 openssl                                                                        3.3.3-r0               apk                       
-optional-require                                                               1.1.8                  npm                       
+optional-require                                                               1.1.10                 npm                       
 optionator                                                                     0.8.3                  npm                       
 optionator                                                                     0.9.1                  npm                       
 os-homedir                                                                     1.0.2                  npm                       
