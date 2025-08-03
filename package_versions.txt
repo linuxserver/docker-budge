@@ -247,7 +247,7 @@ NAME                                                                           V
 @svgr/plugin-svgo                                                              5.5.0                  npm                       
 @svgr/webpack                                                                  5.5.0                  npm                       
 @szmarczak/http-timer                                                          4.0.6                  npm                       
-@testing-library/dom                                                           10.4.0                 npm                       
+@testing-library/dom                                                           10.4.1                 npm                       
 @testing-library/dom                                                           7.31.2                 npm                       
 @testing-library/jest-dom                                                      5.15.0                 npm                       
 @testing-library/react                                                         11.2.7                 npm                       
@@ -392,12 +392,12 @@ ansi-regex                                                                     6
 ansi-regex                                                                     6.1.0                  npm     (+1 duplicate)    
 ansi-styles                                                                    2.2.1                  npm                       
 ansi-styles                                                                    3.2.1                  npm     (+1 duplicate)    
-ansi-styles                                                                    4.3.0                  npm     (+45 duplicates)  
+ansi-styles                                                                    4.3.0                  npm     (+44 duplicates)  
 ansi-styles                                                                    5.2.0                  npm     (+11 duplicates)  
 ansi-styles                                                                    6.2.1                  npm                       
 any-promise                                                                    1.3.0                  npm                       
 anymatch                                                                       3.1.2                  npm                       
-apache2-utils                                                                  2.4.64-r0              apk                       
+apache2-utils                                                                  2.4.65-r0              apk                       
 apk-tools                                                                      2.14.4-r1              apk                       
 app-root-path                                                                  3.0.0                  npm                       
 apr                                                                            1.7.5-r0               apk                       
@@ -518,7 +518,7 @@ catatonit                                                                      0
 chalk                                                                          1.1.3                  npm                       
 chalk                                                                          2.4.2                  npm                       
 chalk                                                                          3.0.0                  npm                       
-chalk                                                                          4.1.2                  npm     (+41 duplicates)  
+chalk                                                                          4.1.2                  npm     (+40 duplicates)  
 chalk                                                                          5.3.0                  npm                       
 char-regex                                                                     1.0.2                  npm                       
 char-regex                                                                     2.0.1                  npm                       
@@ -550,9 +550,9 @@ code-point-at                                                                  1
 collect-v8-coverage                                                            1.0.1                  npm                       
 color                                                                          3.0.0                  npm                       
 color-convert                                                                  1.9.3                  npm     (+1 duplicate)    
-color-convert                                                                  2.0.1                  npm     (+45 duplicates)  
+color-convert                                                                  2.0.1                  npm     (+44 duplicates)  
 color-name                                                                     1.1.3                  npm     (+1 duplicate)    
-color-name                                                                     1.1.4                  npm     (+45 duplicates)  
+color-name                                                                     1.1.4                  npm     (+44 duplicates)  
 color-string                                                                   1.6.0                  npm                       
 color-support                                                                  1.1.3                  npm                       
 colord                                                                         2.9.2                  npm                       
@@ -946,7 +946,7 @@ has                                                                            1
 has-ansi                                                                       2.0.0                  npm                       
 has-bigints                                                                    1.0.1                  npm     (+1 duplicate)    
 has-flag                                                                       3.0.0                  npm                       
-has-flag                                                                       4.0.0                  npm     (+46 duplicates)  
+has-flag                                                                       4.0.0                  npm     (+45 duplicates)  
 has-symbols                                                                    1.0.2                  npm     (+1 duplicate)    
 has-tostringtag                                                                1.0.0                  npm     (+1 duplicate)    
 has-unicode                                                                    2.0.1                  npm                       
@@ -1434,7 +1434,7 @@ php83-xml                                                                      8
 php83-xmlwriter                                                                8.3.15-r0              apk                       
 php83-zip                                                                      8.3.15-r0              apk                       
 picocolors                                                                     0.2.1                  npm                       
-picocolors                                                                     1.0.0                  npm                       
+picocolors                                                                     1.1.1                  npm                       
 picomatch                                                                      2.3.0                  npm                       
 pirates                                                                        4.0.5                  npm                       
 pkg-dir                                                                        4.2.0                  npm                       
@@ -1751,7 +1751,7 @@ stylehacks                                                                     5
 stylis                                                                         4.0.10                 npm                       
 supports-color                                                                 2.0.0                  npm                       
 supports-color                                                                 5.5.0                  npm                       
-supports-color                                                                 7.2.0                  npm     (+45 duplicates)  
+supports-color                                                                 7.2.0                  npm     (+44 duplicates)  
 supports-color                                                                 8.1.1                  npm                       
 supports-color                                                                 9.4.0                  npm                       
 supports-hyperlinks                                                            2.2.0                  npm                       
