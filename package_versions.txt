@@ -492,8 +492,8 @@ buffer-from                                                                    1
 buffer-indexof                                                                 1.1.1                  npm                       
 buffer-writer                                                                  2.0.0                  npm                       
 builtin-modules                                                                3.2.0                  npm                       
-busybox                                                                        1.36.1-r29             apk                       
-busybox-binsh                                                                  1.36.1-r29             apk                       
+busybox                                                                        1.36.1-r30             apk                       
+busybox-binsh                                                                  1.36.1-r30             apk                       
 bytes                                                                          3.0.0                  npm                       
 bytes                                                                          3.1.0                  npm                       
 bytes                                                                          3.1.2                  npm     (+1 duplicate)    
@@ -1711,7 +1711,7 @@ sqlite                                                                         3
 sqlite3                                                                        5.0.2                  npm                       
 sqlstring                                                                      2.3.1                  npm                       
 sshpk                                                                          1.16.1                 npm                       
-ssl_client                                                                     1.36.1-r29             apk                       
+ssl_client                                                                     1.36.1-r30             apk                       
 ssri                                                                           10.0.6                 npm                       
 ssri                                                                           12.0.0                 npm                       
 stable                                                                         0.1.8                  npm                       
