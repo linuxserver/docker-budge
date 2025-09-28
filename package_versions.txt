@@ -568,7 +568,7 @@ common-ancestor-path                                                           1
 common-path-prefix                                                             3.0.0                  npm                       
 common-tags                                                                    1.8.2                  npm                       
 commondir                                                                      1.0.1                  npm                       
-composer                                                                       2.8.11                 binary                    
+composer                                                                       2.8.12                 binary                    
 compressible                                                                   2.0.18                 npm                       
 compression                                                                    1.7.4                  npm                       
 concat-map                                                                     0.0.1                  npm     (+1 duplicate)    
@@ -1159,7 +1159,7 @@ libbz2                                                                         1
 libcrypto3                                                                     3.3.4-r0               apk                       
 libcurl                                                                        8.12.1-r0              apk                       
 libedit                                                                        20240517.3.1-r0        apk                       
-libexpat                                                                       2.7.0-r0               apk                       
+libexpat                                                                       2.7.2-r0               apk                       
 libgcc                                                                         13.2.1_git20240309-r1  apk                       
 libidn2                                                                        2.3.7-r0               apk                       
 libintl                                                                        0.22.5-r0              apk                       
