@@ -498,8 +498,8 @@ bytes                                                                          3
 bytes                                                                          3.1.0                  npm                       
 bytes                                                                          3.1.2                  npm     (+1 duplicate)    
 c-ares                                                                         1.33.1-r0              apk                       
-ca-certificates                                                                20250619-r0            apk                       
-ca-certificates-bundle                                                         20250619-r0            apk                       
+ca-certificates                                                                20250911-r0            apk                       
+ca-certificates-bundle                                                         20250911-r0            apk                       
 cacache                                                                        18.0.4                 npm                       
 cacache                                                                        19.0.1                 npm                       
 cacheable-lookup                                                               5.0.4                  npm                       
@@ -627,7 +627,7 @@ cssstyle                                                                       2
 csstype                                                                        3.0.10                 npm                       
 csv-parse                                                                      4.16.3                 npm                       
 csv-parse                                                                      5.0.4                  npm                       
-curl                                                                           8.12.1-r0              apk                       
+curl                                                                           8.14.1-r2              apk                       
 cycle                                                                          1.0.3                  npm                       
 damerau-levenshtein                                                            1.0.8                  npm                       
 dashdash                                                                       1.14.1                 npm                       
@@ -1157,7 +1157,7 @@ libbase64                                                                      0
 libbsd                                                                         0.12.2-r0              apk                       
 libbz2                                                                         1.0.8-r6               apk                       
 libcrypto3                                                                     3.3.5-r0               apk                       
-libcurl                                                                        8.12.1-r0              apk                       
+libcurl                                                                        8.14.1-r2              apk                       
 libedit                                                                        20240517.3.1-r0        apk                       
 libexpat                                                                       2.7.3-r0               apk                       
 libgcc                                                                         13.2.1_git20240309-r1  apk                       
