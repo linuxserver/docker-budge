@@ -568,7 +568,7 @@ common-ancestor-path                                                           1
 common-path-prefix                                                             3.0.0                  npm                       
 common-tags                                                                    1.8.2                  npm                       
 commondir                                                                      1.0.1                  npm                       
-composer                                                                       2.9.2                  binary                    
+composer                                                                       2.9.3                  binary                    
 compressible                                                                   2.0.18                 npm                       
 compression                                                                    1.7.4                  npm                       
 concat-map                                                                     0.0.1                  npm     (+1 duplicate)    
