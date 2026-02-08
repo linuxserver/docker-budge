@@ -381,7 +381,7 @@ ajv-keywords                                                                   5
 alpine-baselayout                                                              3.6.5-r0               apk                       
 alpine-baselayout-data                                                         3.6.5-r0               apk                       
 alpine-keys                                                                    2.4-r1                 apk                       
-alpine-release                                                                 3.20.8-r0              apk                       
+alpine-release                                                                 3.20.9-r0              apk                       
 ansi-escapes                                                                   4.3.2                  npm                       
 ansi-html-community                                                            0.0.8                  npm                       
 ansi-regex                                                                     2.1.1                  npm     (+3 duplicates)   
@@ -1159,7 +1159,7 @@ libbz2                                                                         1
 libcrypto3                                                                     3.3.6-r0               apk                       
 libcurl                                                                        8.14.1-r2              apk                       
 libedit                                                                        20240517.3.1-r0        apk                       
-libexpat                                                                       2.7.3-r0               apk                       
+libexpat                                                                       2.7.4-r0               apk                       
 libgcc                                                                         13.2.1_git20240309-r1  apk                       
 libidn2                                                                        2.3.7-r0               apk                       
 libintl                                                                        0.22.5-r0              apk                       
@@ -1707,7 +1707,7 @@ spdy-transport                                                                 3
 split2                                                                         4.1.0                  npm                       
 sprintf-js                                                                     1.0.3                  npm     (+1 duplicate)    
 sprintf-js                                                                     1.1.3                  npm                       
-sqlite                                                                         3.45.3-r2              apk                       
+sqlite                                                                         3.45.3-r3              apk                       
 sqlite3                                                                        5.0.2                  npm                       
 sqlstring                                                                      2.3.1                  npm                       
 sshpk                                                                          1.16.1                 npm                       
