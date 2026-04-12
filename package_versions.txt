@@ -1282,7 +1282,7 @@ ms                                                                             2
 ms                                                                             2.1.3                  npm     (+2 duplicates)   
 multicast-dns                                                                  6.2.3                  npm                       
 multicast-dns-service-types                                                    1.1.0                  npm                       
-musl                                                                           1.2.5-r1               apk                       
+musl                                                                           1.2.5-r3               apk                       
 musl-utils                                                                     1.2.5-r1               apk                       
 mute-stream                                                                    0.0.8                  npm                       
 mute-stream                                                                    2.0.0                  npm                       
