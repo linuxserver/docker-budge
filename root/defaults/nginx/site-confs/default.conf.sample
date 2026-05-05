@@ -1,12 +1,10 @@
-## Version 2026/02/08 - Changelog: https://github.com/linuxserver/docker-budge/commits/main/root/defaults/nginx/site-confs/default.conf.sample
+## Version 2026/05/05 - Changelog: https://github.com/linuxserver/docker-budge/commits/main/root/defaults/nginx/site-confs/default.conf.sample
 
 server {
     listen 80 default_server;
     listen [::]:80 default_server;
     listen 443 ssl default_server;
     listen [::]:443 ssl default_server;
-    listen 443 quic reuseport default_server;
-    listen [::]:443 quic reuseport default_server;
 
     server_name _;
 
@@ -14,6 +12,18 @@ server {
 
     root /app/www/public/frontend/build;
     index index.html;
+
+    # Allow access to the ".well-known" directory
+    location ^~ /.well-known {
+        allow all;
+    }
+
+    # deny access to all dotfiles
+    location ~ /\. {
+        access_log off;
+        log_not_found off;
+        return 404;
+    }
 
     location / {
         # enable for basic auth
@@ -27,18 +37,5 @@ server {
         rewrite /foo/(.*) /$1 break;
         proxy_set_header Upgrade $http_upgrade;
         proxy_pass http://localhost:5000/;
-    }
-
-    # deny access to all dotfiles
-    location ~ /\. {
-        deny all;
-        log_not_found off;
-        access_log off;
-        return 404;
-    }
-
-    # Allow access to the ".well-known" directory
-    location ^~ /.well-known {
-        allow all;
     }
 }
