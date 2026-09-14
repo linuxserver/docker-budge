@@ -25,6 +25,8 @@ param_ports:
 app_setup_block_enabled: true
 app_setup_block: |
   Access the web gui at http://SERVERIP:PORT
+
+  This image can also be deployed with one click using the official [Easypanel](https://easypanel.io/) template, available at https://easypanel.io/templates/budge.
 # init diagram
 init_diagram: |
   "budge:latest": {
