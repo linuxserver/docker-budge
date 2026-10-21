@@ -7,6 +7,10 @@ project_logo: ""
 project_blurb: "[{{ project_name }}]({{ project_url }}) is an open source 'budgeting with envelopes' personal finance app."
 project_lsio_github_repo_url: "https://github.com/linuxserver/docker-{{ project_name }}"
 project_categories: "Finance"
+
+# deprecation information
+project_deprecation_status: true
+
 # supported architectures
 available_architectures:
   - {arch: "{{ arch_x86_64 }}", tag: "amd64-latest"}
@@ -88,6 +92,7 @@ init_diagram: |
   "budge:latest" <- Base Images
 # changelog
 changelogs:
+  - {date: "21.10.26:", desc: "Deprecate."}
   - {date: "06.06.24:", desc: "Rebase to Alpine 3.20. Existing users should update their nginx confs to avoid http2 deprecation warnings."}
   - {date: "06.03.24:", desc: "Existing users should update: site-confs/default.conf - Cleanup default site conf."}
   - {date: "06.03.24:", desc: "Rebase to Alpine 3.19 with php 8.3."}
